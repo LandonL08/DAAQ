@@ -1,0 +1,82 @@
+/* Apply gradient background to the body or main container */
+body {
+  background: linear-gradient(to bottom, purple, white);
+  /* Ensure full screen height */
+  height: 100vh;
+  margin: 0;
+  overflow: hidden;
+}
+.screen {
+  
+  background-color: rgb(58, 116, 58) ;
+  box-sizing: border-box;
+  margin: 15px auto;
+  padding: 15px;
+  max-width: 650px;
+  max-height: 800px;
+  width: calc(100vw - 30px);
+  height: calc(100vh - 30px);
+  border-radius: 20px;
+  
+}
+
+
+  
+  h1, h4 {
+    text-align: center;
+    
+  }
+
+
+  .start-btn {
+    justify-content: center;
+  }
+
+
+  button {
+    background-color: rgba(255, 255, 255, 0.534);
+    border: none;
+    outline: none;
+    border-radius: 19px;
+    box-shadow: 3px 3px 7px black;
+    font-size: 24px;
+    display: block;
+    margin: 10px auto;
+    min-height: 70px;
+    width: 100%;
+  }
+
+ button:hover {
+  border: dotted 2px white;
+  background-color: rgba(255, 255, 255, 0.315);
+ }
+
+
+
+
+ .highlight {
+  background-color: green;
+  color: white;
+}
+
+
+  .highlightw {
+    background-color: red;
+    color: white;
+  }
+  
+  
+
+  canvas {
+    min-width: 100vw;
+    min-height: 100vh; 
+    position: absolute;
+    top: 0;
+    z-index: -1;
+  }
+
+
+  #welcome-screen, #question-screen, #thankyou-screen, #correct-screen, #incorrect-screen{
+    background: grey;
+  }
+  
